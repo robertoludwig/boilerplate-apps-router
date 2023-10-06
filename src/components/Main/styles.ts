@@ -3,7 +3,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-    background-color: #06092b;
+    background-color: #04061f;
     color: #fff;
     width: 100%;
     height: 100%;
@@ -15,13 +15,9 @@ export const Wrapper = styled.main`
     justify-content: center;
 `
 
-export const Logo = styled.img`
-    width: 25rem;
-    margin-bottom: 2rem;
-`
-
 export const Title = styled.h1`
     font-size: 2.5rem;
+    margin-bottom: 2.5rem;
 `
 
 export const Description = styled.h2`

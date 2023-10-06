@@ -8,7 +8,7 @@ describe('<Main />', () => {
 
         // busca o elemento e verifica a existência dele
         expect(
-            screen.getByRole('heading', { name: /react avançado/i })
+            screen.getByRole('heading', { name: /boilerplate next.js/i })
         ).toBeInTheDocument()
 
         // gerar snapshot
@@ -21,7 +21,7 @@ describe('<Main />', () => {
 
         // verifica se o background-color está correto
         expect(container.firstChild).toHaveStyle({
-            'background-color': '#06092b'
+            'background-color': '#04061f'
         })
     })
 })
